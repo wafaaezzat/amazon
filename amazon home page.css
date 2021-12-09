@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(192, 185, 185);
+}
+span {
+  width: 25%;
+}
+
+.navbar1 {
+  overflow: hidden;
+  background-color: black;
+}
+
+.navbar1 a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.navbar1 a:hover,
+.navbar2 a:hover {
+  border: 1px solid white;
+}
+
+.navbar1 .search {
+  float: left;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+.search {
+  width: 800px;
+}
+#lang {
+  padding: 3px;
+  margin-top: 10px;
+  float: left;
+}
+.deliver,
+.signin,
+.return,
+.cart {
+  margin-top: 10px;
+}
+
+.div {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+}
+.ham {
+  float: right;
+  width: 35px;
+}
+.navbar2 {
+  background-color: rgb(0, 0, 51);
+  height: 35px;
+}
+
+.navbar2 a {
+  width: 200px;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.pho {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 15px;
+  width: 350px;
+  height: 350px;
+}
+
+.products {
+  position: absolute;
+  top: 490px;
+  margin: 25px;
+}
+
+/* #slideshow{
+float: right;
+
+} */
+
+.di {
+  height: 360px;
+  padding: 5px;
+  margin: 5px;
+  width: 24%;
+  background-color: white;
+  float: left;
+  border-radius: 5px;
+}
+
+.top {
+  position: absolute;
+  top: 1650px;
+  background-color: rgb(50, 50, 83);
+  text-align: center;
+  width: 100%;
+  height: 35px;
+  color: white;
+}
+.info {
+  width: 100%;
+
+  position: absolute;
+  top: 1680px;
+  background-color: rgb(31, 31, 59);
+}
+.final {
+  text-decoration: none;
+  text-align: center;
+  width: 24%;
+  float: left;
+}
+.final p {
+  color: white;
+  font-size: larger;
+}
+.final a {
+  text-decoration: none;
+  color: white;
+  font-size: smaller;
+}
+.final a:hover {
+  text-decoration: underline;
+}
+.cprd {
+  position: absolute;
+  top: 2053px;
+  background-color: rgb(12, 12, 24);
+}
+.cpr {
+  padding: 20px;
+  width: 14%;
+  float: left;
+}
+.cpr a {
+  color: white;
+  text-decoration: none;
+  font-size: smaller;
+}
+
+.cpr > a::after,
+.cprr a::after {
+  content: "\a\a\a";
+  white-space: pre;
+}
+.cpr a:hover {
+  text-decoration: underline;
+}
+
+.cprf {
+  padding-left: 500px;
+  width: 100%;
+  position: absolute;
+  top: 2515px;
+  background-color: rgb(12, 12, 24);
+}
+.cprf a {
+  color: white;
+  text-decoration: none;
+}
+.cprf a :hover {
+  text-decoration: underline;
+}
+.cprr {
+  width: 10%;
+  float: left;
+  font-size: 12px;
+}
